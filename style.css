@@ -13,6 +13,7 @@ h1 {
 
 section {
   display: flex;
+  margin-bottom: 200px;
 }
 
 .top-banner {
@@ -21,10 +22,23 @@ section {
 }
 .half-width {
   width: 50%;
-  padding-left: 40px;
+  padding-left: 85px;
 }
 
 .half-width img {
+  width: 100%;
+}
+
+.half-width2 {
+  width: 50%;
+  padding-left: 40px;
+}
+
+.half-width2 p {
+  padding-right: 120px;
+}
+
+.half-width2 img {
   width: 100%;
 }
 
@@ -34,4 +48,11 @@ section {
   background-image: linear-gradient(orange, tomato);
   padding: 10px 40px;
   border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
